@@ -1,0 +1,103 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Online Coaching Survey</title>
+   <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <main>
+        <h1 id='title'>Online Coaching Survey
+          </h1>
+          <p id='description'>Helps me understand your goals and preferences to create a personalized coaching plan just for you!</p>
+
+          <form id='survey-form'>
+
+<!--Personal Info-->
+
+            <div>
+            <label id="name-label" for='name'>Name</label>
+            <input id='name' type='text' placeholder='Enter your name' required>
+            </input>
+            </div>
+            <br>
+
+            <div>
+            <label id="email-label" for='email'>Email</label>
+            <input id='email' type='email' placeholder='Enter your email' required>
+            </div>
+
+            <div>
+               <br>
+            <label id="number-label" for='number'>Age</label>
+            <input id='number' type='number' placeholder='Enter your age' min='18' max='99' required>
+            </div>
+           <br>
+           <label for='gender'>Gender</label>
+            <select id='dropdown'>
+              <option value='select-one'>
+                select one
+              </option>
+
+               <option value='male'>
+                Male
+              </option>
+
+              <option value='female'>
+                Female
+              </option> 
+
+              <option value='non-binary'>
+                Non-Binary
+              </option>
+
+               <option value='prefer-not-to-say'>
+                Prefer not to say
+              </option>
+            </select> 
+
+<!--Coaching Goals-->
+<div>
+  <br><fieldset>
+            <legend>How often do you exercise?</legend><br>
+
+            <label for='daily'></label>
+              <input type='radio' id='daily' value='daily'  name='activity-level'>Daily</input>
+
+            <label for='3-5-times'></label>
+              <input type='radio' id='3-5-times' value='3-5 times'  name='activity-level'>3-5 times/week</input>
+            
+            <label for='1-2-times'></label>
+              <input type='radio' id='1-2-times' value='1-2 times'  name='activity-level'>1-2 times/week</input>
+
+            <label for='rarely'></label>
+              <input type='radio' id='rarely'  value='rarely' name='activity-level'>Rarely</input></fieldset><br>
+              <fieldset>
+                <legend>What are your fitness goals?
+                </legend>
+                <input type='checkbox' value='weightloss'>Weightloss</input>
+
+                <input type='checkbox' value='muscle-gain'>Muscle gain</input>
+                <input type='checkbox' value='better nutrition'>Better nutrition</input>
+                <input type='checkbox' value='improved fitness'>Improve fitness</input>
+               <br> <input type='checkbox' value='other'>Other: <textarea placeholder="Describe your goals?" rows='2' cols='30'></textarea ></input>
+              </fieldset>
+              </div>
+            <br>
+            <input id='submit' type='submit'></input>
+          </form>
+          </main>
+    </body>
+    </html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
